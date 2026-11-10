@@ -52,7 +52,7 @@
       cat: "masahab",
       name: "ساندويش مسحب",
       price: 12,
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4dr2pUbA__CqpZCeMrADa38drqTAbL6lZ5qRgJ99bw&s=10",
+        img: "https://w-sandwich.com/wp-content/uploads/2024/02/IMG_5626-1920x1280.jpg",
 
       badge: "الأكثر طلبًا",
       desc: "ساندويش مسحب دجاج طازج مع الصوص والخضار."
@@ -62,7 +62,7 @@
       cat: "masahab",
       name: "وجبة مسحب",
       price: 20,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoqs8jQaMOeZR1XGLVUcfRd8gsTF1i2vDaJ0MVdjVCg&s=10",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwRXRlrygtvdM6-QdTAk4l4PLc33lmEqlw_AICViWs3w&s=10",
       desc: "وجبة مسحب مع بطاطا مقلية ومشروب كولا."
     },
 
@@ -72,7 +72,7 @@
       cat: "burger",
       name: "برغر",
       price: null,
-      img: IMG.burger,
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFiLGY4Mj6CparNQ9G4uoObRqvhVVH_z3zEhHf_21oRw&s=10",
       desc: "برغر شهي مع الخضار والصوص."
     },
     {
@@ -80,7 +80,7 @@
       cat: "burger",
       name: "وجبة برغر",
       price: null,
-      img: IMG.smash,
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2W1_43nzfjVVv9vlpCfAkqVB6M3OEp2TTQbckJk2YxA&s=10",
       desc: "وجبة برغر تقدم مع البطاطا ومشروب كولا."
     },
 
@@ -106,7 +106,7 @@
       cat: "sandwich",
       name: "ساندويش جبنة",
       price: null,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTy84a75JqASmL7Bu1BRL8X-ed1VrPnVB3RV2R3PtKA&s=10",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFWTy1oUTqGIJwyDwCY9N5BR_9f_juqBZxcsTa9-tWgA&s=10",
       desc: "ساندويش جبنة ساخنة ولذيذة."
     },
 
@@ -124,7 +124,7 @@
       cat: "snacks",
       name: "شنيتسل",
       price: null,
-      img: IMG.chicken,
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDd6JTkeNLIVrX5MHA4h2oCXQKIr_K2nSZ2s6wcW5lBQ&s=10",
       desc: "قطع شنيتسل مقرمشة."
     },
     {
@@ -132,7 +132,7 @@
       cat: "snacks",
       name: "أصابع جاج",
       price: null,
-      img: IMG.chicken,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkDYpHloexE0P-Q5bwuH1F5c1ud4XhBTSaZ18aAIKNSw&s=10",
       desc: "أصابع دجاج مقرمشة."
     },
     {
@@ -148,7 +148,7 @@
       cat: "snacks",
       name: "صحن بطاطا كبير",
       price: null,
-      img: IMG.fries,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXKZkZxcorlCUIq-2BKmLzFF-cBn9AJltFMqWTY6MWEQ&s=10",
       desc: "صحن كبير من البطاطا المقلية."
     }
 
