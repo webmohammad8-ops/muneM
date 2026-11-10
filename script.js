@@ -116,7 +116,7 @@
       cat: "snacks",
       name: "وجبة باشكا",
       price: null,
-      img: IMG.chicken,
+      img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLQSQ8ai4rv3Gg-1TlFcZIvQtmlaaOOap2f5jOzwvvTg&s=10",
       desc: "وجبة باشكا المميزة."
     },
     {
