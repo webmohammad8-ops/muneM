@@ -40,9 +40,9 @@
 
   /* ===== 4) المنيو — أضف / عدّل / احذف أي صنف (الأسعار أمثلة) ===== */
   const ITEMS = [
-    { id: "b1", cat: "burger", name: "باشكا برغر كلاسيك", price: 22, img: IMG.burger, badge: "الأكثر طلبًا",
+    { id: "b1", cat: "burger", name: "باشكا برغر كلاسيك", price: 22, img:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR983W4oDM8G3PKA7XKseflvbFeT43RsdotUFUo6CXz-Q&s=10, badge: "الأكثر طلبًا",
       desc: "قطعة لحم مشوية، جبنة، خس، طماطم وصوص باشكا الخاص." },
-    { id: "b2", cat: "burger", name: "باشكا دبل", price: 30, img: IMG.smash,
+    { id: "b2", cat: "burger", name: "باشكا دبل", price: 30, img: Ihttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN1VjOK1ZrwU14kT38TUrEIvbRnTrHu4YdgI4DUf5Wkg&s=10,
       desc: "قطعتين لحم مع جبنة مضاعفة وصوص باشكا لأصحاب الشهية الكبيرة." },
     { id: "b3", cat: "burger", name: "برغر دجاج كريسبي", price: 24, img: IMG.chicken,
       desc: "صدر دجاج مقرمش مع خس وجبنة وصوص مايونيز." },
