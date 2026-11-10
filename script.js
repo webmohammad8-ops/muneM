@@ -52,7 +52,8 @@
       cat: "masahab",
       name: "ساندويش مسحب",
       price: 12,
-      img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4dr2pUbA__CqpZCeMrADa38drqTAbL6lZ5qRgJ99bw&s=10,
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4dr2pUbA__CqpZCeMrADa38drqTAbL6lZ5qRgJ99bw&s=10",
+
       badge: "الأكثر طلبًا",
       desc: "ساندويش مسحب دجاج طازج مع الصوص والخضار."
     },
