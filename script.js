@@ -62,7 +62,7 @@
       cat: "masahab",
       name: "وجبة مسحب",
       price: 20,
-      img: IMG.chicken,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREoqs8jQaMOeZR1XGLVUcfRd8gsTF1i2vDaJ0MVdjVCg&s=10",
       desc: "وجبة مسحب مع بطاطا مقلية ومشروب كولا."
     },
 
@@ -90,7 +90,7 @@
       cat: "sandwich",
       name: "ساندويش باشكا",
       price: null,
-      img: IMG.sandwich,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR983W4oDM8G3PKA7XKseflvbFeT43RsdotUFUo6CXz-Q&s=10",
       desc: "ساندويش باشكا المميز."
     },
     {
@@ -98,7 +98,7 @@
       cat: "sandwich",
       name: "ساندويش نقانق",
       price: null,
-      img: IMG.sandwich,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUv0_04ciKoKGWJU96f63Mv2lZ6dOAZRkuYtruhndwfA&s=10",
       desc: "ساندويش نقانق مع الإضافات والصوص."
     },
     {
@@ -106,7 +106,7 @@
       cat: "sandwich",
       name: "ساندويش جبنة",
       price: null,
-      img: IMG.sandwich,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoTy84a75JqASmL7Bu1BRL8X-ed1VrPnVB3RV2R3PtKA&s=10",
       desc: "ساندويش جبنة ساخنة ولذيذة."
     },
 
