@@ -46,130 +46,109 @@
   /* ===== 4) المنيو — أضف / عدّل / احذف أي صنف ===== */
   const ITEMS = [
 
-    // البرغر
-    {
-      id: "b1",
-      cat: "burger",
-      name: "باشكا برغر كلاسيك",
-      price: 22,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR983W4oDM8G3PKA7XKseflvbFeT43RsdotUFUo6CXz-Q&s=10",
-      badge: "الأكثر طلبًا",
-      desc: "قطعة لحم مشوية، جبنة، خس، طماطم وصوص باشكا الخاص."
-    },
-    {
-      id: "b2",
-      cat: "burger",
-      name: "باشكا دبل",
-      price: 30,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN1VjOK1ZrwU14kT38TUrEIvbRnTrHu4YdgI4DUf5Wkg&s=10",
-      desc: "قطعتين لحم مع جبنة مضاعفة وصوص باشكا لأصحاب الشهية الكبيرة."
-    },
-    {
-      id: "b3",
-      cat: "burger",
-      name: "برغر دجاج كريسبي",
-      price: 24,
-      img: IMG.chicken,
-      desc: "صدر دجاج مقرمش مع خس وجبنة وصوص مايونيز."
-    },
-    {
-      id: "b4",
-      cat: "burger",
-      name: "سموش برغر",
-      price: 26,
-      img: IMG.smash,
-      badge: "جديد",
-      desc: "لحم مهروس على الشواية بحواف مقرمشة وجبنة ذائبة."
-    },
-
-    // المسحب
+    // قسم المسحب
     {
       id: "m1",
       cat: "masahab",
-      name: "ساندويش مسحب دجاج",
-      price: 18,
+      name: "ساندويش مسحب",
+      price: 12,
       img: IMG.sandwich,
       badge: "الأكثر طلبًا",
-      desc: "دجاج مسحّب متبّل مع خضار وصوص الثوم في خبز طازج."
+      desc: "ساندويش مسحب دجاج طازج مع الصوص والخضار."
     },
     {
       id: "m2",
       cat: "masahab",
-      name: "ساندويش مسحب لحم",
-      price: 22,
-      img: IMG.sandwich,
-      desc: "لحم مسحّب طري مع بصل وطحينة وخضار مخلل."
-    },
-    {
-      id: "m3",
-      cat: "masahab",
       name: "وجبة مسحب",
-      price: 28,
+      price: 20,
       img: IMG.chicken,
-      desc: "ساندويش مسحب مع بطاطا مقلية ومشروب غازي."
+      desc: "وجبة مسحب مع بطاطا مقلية ومشروب كولا."
     },
 
-    // الساندويشات
+    // قسم البرغر
+    {
+      id: "b1",
+      cat: "burger",
+      name: "برغر",
+      price: null,
+      img: IMG.burger,
+      desc: "برغر شهي مع الخضار والصوص."
+    },
+    {
+      id: "b2",
+      cat: "burger",
+      name: "وجبة برغر",
+      price: null,
+      img: IMG.smash,
+      desc: "وجبة برغر تقدم مع البطاطا ومشروب كولا."
+    },
+
+    // قسم الساندويشات
     {
       id: "s1",
       cat: "sandwich",
-      name: "ساندويش دجاج مشوي",
-      price: 16,
+      name: "ساندويش باشكا",
+      price: null,
       img: IMG.sandwich,
-      desc: "دجاج مشوي، خس، طماطم وصوص الثوم."
+      desc: "ساندويش باشكا المميز."
     },
     {
       id: "s2",
       cat: "sandwich",
-      name: "ساندويش جبنة مشوية",
-      price: 12,
+      name: "ساندويش نقانق",
+      price: null,
       img: IMG.sandwich,
-      desc: "جبنة ذائبة في خبز محمّص مقرمش."
+      desc: "ساندويش نقانق مع الإضافات والصوص."
+    },
+    {
+      id: "s3",
+      cat: "sandwich",
+      name: "ساندويش جبنة",
+      price: null,
+      img: IMG.sandwich,
+      desc: "ساندويش جبنة ساخنة ولذيذة."
     },
 
-    // السناكس
+    // قسم السناكس
     {
       id: "f1",
       cat: "snacks",
-      name: "بطاطا مقلية",
-      price: 10,
-      img: IMG.fries,
-      desc: "بطاطا ذهبية مقرمشة مع الكاتشب."
+      name: "وجبة باشكا",
+      price: null,
+      img: IMG.chicken,
+      desc: "وجبة باشكا المميزة."
     },
     {
       id: "f2",
       cat: "snacks",
-      name: "بطاطا بالجبنة",
-      price: 14,
+      name: "شنيتسل",
+      price: null,
+      img: IMG.chicken,
+      desc: "قطع شنيتسل مقرمشة."
+    },
+    {
+      id: "f3",
+      cat: "snacks",
+      name: "أصابع جاج",
+      price: null,
+      img: IMG.chicken,
+      desc: "أصابع دجاج مقرمشة."
+    },
+    {
+      id: "f4",
+      cat: "snacks",
+      name: "خبيصة",
+      price: null,
       img: IMG.fries,
-      desc: "بطاطا مقلية مغطاة بصوص الجبنة الساخن."
-    },
-
-    // المشروبات
-    {
-      id: "d1",
-      cat: "drinks",
-      name: "كوكتيل فراولة",
-      price: 14,
-      img: IMG.redDrink,
-      badge: "الأكثر طلبًا",
-      desc: "فراولة طازجة مع عصير وثلج، منعش وحلو."
+      desc: "خبيصة بطاطا مع الإضافات."
     },
     {
-      id: "d2",
-      cat: "drinks",
-      name: "موهيتو ليمون ونعناع",
-      price: 14,
-      img: IMG.limeDrink,
-      desc: "ليمون طازج ونعناع وصودا باردة."
-    },
-    {
-      id: "d3",
-      cat: "drinks",
-      name: "كوكتيل توت",
-      price: 15,
-      img: IMG.redDrink,
-      desc: "مزيج توت ملوّن مع ثلج وطعم غني."
+      id: "f5",
+      cat: "snacks",
+      name: "صحن بطاطا كبير",
+      price: null,
+      img: IMG.fries,
+      desc: "صحن كبير من البطاطا المقلية."
     }
 
   ];
@@ -180,7 +159,7 @@
 
   const $ = (s) => document.querySelector(s);
 
-  const fmt = (n) => n + " " + CUR;
+  const fmt = (n) => n == null ? "يحدد لاحقًا" : n + " " + CUR;
 
   const waLink = (t) =>
     "https://wa.me/" + SHOP.whatsapp +
@@ -213,7 +192,7 @@
   const total = () =>
     Object.keys(cart).reduce((s, id) => {
       const item = find(id);
-      return s + (item ? item.price * cart[id] : 0);
+      return s + (item && item.price != null ? item.price * cart[id] : 0);
     }, 0);
 
   /* --- الأقسام --- */
@@ -312,7 +291,7 @@
 
         '<div class="li-info">' +
         '<b>' + i.name + "</b>" +
-        '<small>' + fmt(i.price * cart[id]) + "</small>" +
+        '<small>' + fmt(i.price == null ? null : i.price * cart[id]) + "</small>" +
         '</div>' +
 
         '<div class="step">' +
@@ -355,7 +334,7 @@
       lines.push(
         (n + 1) + ". " + i.name +
         " × " + cart[id] +
-        " = " + fmt(i.price * cart[id])
+        " = " + fmt(i.price == null ? null : i.price * cart[id])
       );
     });
 
