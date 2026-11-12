@@ -97,7 +97,7 @@
       cat: "meals",
       name: "أصابع جاج كرسبي",
       price: null,
-      img: IMG.chicken,
+      img: "img3.jpg",
       desc: "أصابع دجاج كرسبي مقرمشة."
     },
     {
@@ -105,7 +105,7 @@
       cat: "meals",
       name: "شنيتسل",
       price: null,
-      img: IMG.chicken,
+      img: "img4.jpg",
       desc: "شنيتسل دجاج مقرمش."
     },
     {
@@ -113,7 +113,7 @@
       cat: "meals",
       name: "خبيصة",
       price: null,
-      img: IMG.fries,
+      img: "img5.jpg",
       desc: "خبيصة شهية."
     },
     {
