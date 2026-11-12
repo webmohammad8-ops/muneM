@@ -121,7 +121,7 @@
       cat: "meals",
       name: "ستيك جاج",
       price: null,
-      img: IMG.chicken,
+      img: "img6.jpg",
       desc: "ستيك دجاج شهي."
     },
     {
@@ -129,7 +129,7 @@
       cat: "meals",
       name: "بيتا رول",
       price: null,
-      img: IMG.sandwich,
+      img:"img7.jpg",
       desc: "بيتا رول مميز."
     },
     {
