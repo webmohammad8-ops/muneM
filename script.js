@@ -52,7 +52,7 @@
       cat: "masahab",
       name: "ساندويش مسحب",
       price: 12,
-        img: "https://w-sandwich.com/wp-content/uploads/2024/02/IMG_5626-1920x1280.jpg",
+        img: "img1.jpg",
 
       badge: "الأكثر طلبًا",
       desc: "ساندويش مسحب دجاج طازج مع الصوص والخضار."
