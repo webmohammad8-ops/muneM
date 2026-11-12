@@ -48,7 +48,7 @@
       cat: "meals",
       name: "مسحب",
       price: null,
-      img: IMG.chicken,
+      img: "img10.jpg",
       badge: "الأكثر طلبًا",
       desc: "مسحب دجاج شهي ومميز."
     },
@@ -129,7 +129,7 @@
       cat: "meals",
       name: "بيتا رول",
       price: null,
-      img:"img7.jpg",
+      img:"img11.jpg",
       desc: "بيتا رول مميز."
     },
     {
