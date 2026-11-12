@@ -137,7 +137,7 @@
       cat: "meals",
       name: "جاج بروست مقرمش",
       price: null,
-      img: IMG.chicken,
+      img: "img8.jpg",
       desc: "دجاج بروست مقرمش."
     },
     {
@@ -145,7 +145,7 @@
       cat: "meals",
       name: "ستربس مكس",
       price: null,
-      img: IMG.chicken,
+      img: "img9.jpg",
       desc: "تشكيلة ستربس مميزة."
     },
 
