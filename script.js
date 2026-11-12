@@ -81,7 +81,7 @@
       cat: "meals",
       name: "أجنحة",
       price: null,
-      img: IMG.chicken,
+      img: "img13.jpg",
       desc: "أجنحة دجاج شهية."
     },
     {
@@ -210,7 +210,7 @@
       cat: "desserts",
       name: "فشافيش",
       price: null,
-      img: IMG.fries,
+      img: "img14.jpg",
       desc: "فشافيش شهية."
     },
     {
